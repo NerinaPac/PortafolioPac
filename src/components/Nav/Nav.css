@@ -1,18 +1,22 @@
 nav {
-    padding: 1rem;
+    padding: 3rem;
 }
 
 ul {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    justify-content:right;
 }
 
 .navLink{
-    background-color: #ffc8dd;
     padding: 1rem;
-    border-radius: 15%;;
+    border-radius: 15%;
     text-decoration: none;
-    box-shadow: 5px 5px 5px #ffafcc ;
-    color: black;
+    color: var(--blanco);
+    font-size: var(--letraMedia);
+    transition:  0.2s;
+}
+
+.navLink:hover{
+    color: var(--verde);
 }

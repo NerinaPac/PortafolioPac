@@ -1,0 +1,21 @@
+.presentacionContain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.presentacionTexto{
+    text-align: center;
+    padding: 2rem;
+}
+
+.presentacionImg{
+    max-width: 30rem;
+
+    img{
+        border-radius: 35%;
+    }
+
+    
+}

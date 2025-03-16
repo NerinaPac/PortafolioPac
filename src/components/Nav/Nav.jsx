@@ -4,9 +4,9 @@ import "./Nav.css"
 function Nav() {
 
     const itemNav = [
-        { path: "/", label: "Sobre mi" },
+        { path: "/", label: "Skills" },
         { path: "/proyectos", label: "Proyectos" },
-        { path: "/contactos", label: "Contactos" },
+        { path: "/contactos", label: "Cursos" },
       ];
 
 return(

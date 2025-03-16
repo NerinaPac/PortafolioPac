@@ -1,0 +1,17 @@
+.contactosContain{
+   text-align: center;
+
+  
+
+}
+
+.contactosRS{
+    font-size: 4rem;
+    color: var(--naranja);
+    padding: 0 1rem;
+    transition: 0.3s;
+}
+
+.contactosRS:hover{
+    color: var(--rojo);
+}

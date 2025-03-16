@@ -1,0 +1,14 @@
+.mouse{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 1s;
+    
+}
+    
+.imgGatito{
+    width: 100%;
+    cursor:grab;
+    
+}

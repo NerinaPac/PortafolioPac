@@ -1,9 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faSquareJs, faNode } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faSquareJs, faNode, faHtml5, faCss  } from '@fortawesome/free-brands-svg-icons';
 import "./Skills.css"
 
 
 function Skills ({infoSkill}){
+
+    const iconMapping = {
+        faReact,
+        faSquareJs,
+        faNode,
+        faHtml5,
+        faCss
+      };
 
     return(
 
@@ -13,7 +21,7 @@ function Skills ({infoSkill}){
                 {infoSkill.map((item, index) => (
                     
                 <div className='bloqueSkill' key={index}>
-                <FontAwesomeIcon icon={item.icono} className="iconoSkill" />
+                <FontAwesomeIcon icon={iconMapping[item.icono]} className="iconoSkill" />
                 <p>{item.aplicacion}</p>
                 </div>
                 

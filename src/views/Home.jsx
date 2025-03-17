@@ -9,7 +9,6 @@ import Data from "../data/data.json";
 function Home (){
 
     const miData = Data;
-    console.log(miData.skills)
 
     return(
         <>

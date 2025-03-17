@@ -5,6 +5,35 @@
         "descripcionImagen":"una foto de una mujer"
 
   },
+  
+"skills": [
+  {
+    "aplicacion":"React",
+    "icono":"faReact"
+  },
+  {
+    "aplicacion":"JavaScript",
+    "icono":"faSquareJs"
+  },
+  {
+    "aplicacion":"NodeJs",
+    "icono":"faNode"
+  },
+  {
+    "aplicacion":"HTML",
+    "icono":"faHtml5"
+  },
+  {
+    "aplicacion":"CSS",
+    "icono":"faCss"
+  },
+  {
+    "aplicacion":"CSS",
+    "icono":"faCss"
+  }
+  
+
+],
 
   "cursos": [      
     {

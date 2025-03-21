@@ -1,0 +1,37 @@
+.proyectoSection{
+    height: 40rem;
+    padding: 2rem 15rem;
+}
+
+.proyecto{
+    display: flex;
+    height: 15rem;
+    padding: 1rem;
+    border-bottom: var(--blanco) 1px solid;
+    align-items: center;
+
+}
+
+.proyectLink{
+    overflow: hidden;
+}
+
+.proyectImg{
+    width: 60rem; /* Ajusta según necesites */
+    height: auto;
+    display: block; /* Evita que el Link lo afecte */
+    transition: transform 0.3s ease-in-out;
+}
+
+.proyectImg:hover{
+    transform: scale(1.1);
+}
+
+.textProyect{
+    text-align: center;
+    margin: auto;
+    color: var(--verde);
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+

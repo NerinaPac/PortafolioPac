@@ -5,6 +5,7 @@ import MouseCat from "../components/MouseCat/MouseCat";
 import Footer from "../components/Footer/Footer";
 import Skills from "../components/Skills/Skills";
 import Data from "../data/data.json";
+import Proyectos from "../components/Proyectos/Proyectos";
 
 function Home (){
 
@@ -18,6 +19,7 @@ function Home (){
             <Skills 
             infoSkill={miData.skills}
             />
+            <Proyectos></Proyectos>
             <Footer></Footer>
 
         </>

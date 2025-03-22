@@ -11,7 +11,7 @@ function Presentacion (){
         
         <div className="presentacionContain">
             <div className="presentacionTexto">
-                <h1 className="sigmar-regular">{infoYo.saludo}</h1>
+                <h1 className="sigmar-regular respoTitle">{infoYo.saludo}</h1>
                 <p>{infoYo.presentacion}</p>
                 <Contacto />
 

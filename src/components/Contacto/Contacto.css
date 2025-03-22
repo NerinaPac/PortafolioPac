@@ -1,8 +1,6 @@
 .contactosContain{
    text-align: center;
 
-  
-
 }
 
 .contactosRS{
@@ -14,4 +12,13 @@
 
 .contactosRS:hover{
     color: var(--rojo);
+}
+
+
+@media (max-width: 768px) {
+    
+    .contactosRS{
+        font-size: 2.5rem;
+       
+    }
 }

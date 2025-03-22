@@ -31,6 +31,7 @@ h2{
 @media (max-width: 768px) {
     .containSkills{
         padding: 2rem 2rem;
+        height: auto;
     }
  
 }

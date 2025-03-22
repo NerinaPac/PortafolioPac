@@ -38,12 +38,15 @@
 @media (max-width: 768px) {
     .proyectoSection{
         height: auto;
-        padding: 4rem 1rem;
+        padding: 2rem 2rem;
     }
 
     .proyecto{
         display: block;
+        height: auto;
     }
+
+    
 
     .textProyect{
         font-size: 1.5rem;

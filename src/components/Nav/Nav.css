@@ -28,3 +28,11 @@ ul {
     }
 
 }
+
+@media (max-width: 480px){
+
+    nav {
+        padding: 1rem;
+    }
+
+}

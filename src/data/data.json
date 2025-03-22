@@ -33,7 +33,7 @@
 
   "proyectos": [      
     {"link":"https://movimientohombre.netlify.app/",
-      "img":"./public/proyectoHombre.jpg",
+      "img":"./proyectoHombre.jpg",
       "reseña": "Es el Trabajo Final que realice en el curso Webmaster FullStack de UTN. Es una pagina estilo blog informativo. Está hecho con Angular."
         
     },
@@ -43,7 +43,7 @@
         
     },
     {"link":"https://thehorrrorgrow.netlify.app/",
-      "img":"./public/proyectoTHG.jpg",
+      "img":"./proyectoTHG.jpg",
       "reseña": "Este es un proyecto particular que aun no está terminado. es un Ecommerce realizado en React."
         
     }

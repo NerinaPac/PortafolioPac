@@ -4,6 +4,10 @@
     font-family: "Patrick Hand", cursive;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     background-color: var(--fondo);
 }

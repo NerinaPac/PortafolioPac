@@ -1,4 +1,3 @@
-import {useState, useEffect} from "react";
 import Nav from "../components/Nav/Nav"
 import Presentacion from "../components/Presentacion/Presentacion";
 import MouseCat from "../components/MouseCat/MouseCat";
@@ -13,14 +12,14 @@ function Home (){
 
     return(
         <>
+            <MouseCat />
             <Nav />
             <Presentacion />            
-            <MouseCat />
             <Skills 
             infoSkill={miData.skills}
             />
-            <Proyectos></Proyectos>
-            <Footer></Footer>
+            <Proyectos />
+            <Footer />
 
         </>
     );

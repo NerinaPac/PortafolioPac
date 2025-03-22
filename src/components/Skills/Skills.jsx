@@ -15,7 +15,7 @@ function Skills ({infoSkill}){
 
     return(
 
-        <section className='containSkills'>
+        <section className='containSkills' id='skillsPac'>
             <h2>SKILLS</h2>
             <div className='containIconSkills'>
                 {infoSkill.map((item, index) => (

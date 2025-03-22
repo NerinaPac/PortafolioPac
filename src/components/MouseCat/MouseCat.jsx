@@ -13,6 +13,7 @@ function MouseCat (){
         y: e.clientY
       });
     };
+    console.log(posicion)
 
     useEffect(() => {
         window.addEventListener("mousemove", manejarMovimientoMouse)

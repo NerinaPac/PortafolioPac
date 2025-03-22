@@ -1,6 +1,5 @@
 .proyectoSection{
-    height: 40rem;
-    padding: 2rem 15rem;
+    padding: 5rem 15rem;
 }
 
 .proyecto{
@@ -17,7 +16,7 @@
 }
 
 .proyectImg{
-    width: 60rem; /* Ajusta según necesites */
+    width: 60rem;
     height: auto;
     display: block; /* Evita que el Link lo afecte */
     transition: transform 0.3s ease-in-out;

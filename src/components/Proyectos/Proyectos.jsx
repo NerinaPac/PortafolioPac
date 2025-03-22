@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Proyectos () {
 
     return(
-        <section className="proyectoSection">
+        <section className="proyectoSection" id="proyectosPac">
             <h2>PROYECTOS</h2>
             <div className="proyectosCnt">
                 <div className="proyecto">

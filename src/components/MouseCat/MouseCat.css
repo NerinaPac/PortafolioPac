@@ -2,7 +2,7 @@
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
     transition: all 1s;
     
 }

@@ -5,8 +5,7 @@ function Nav() {
 
     const itemNav = [
         { path: "/", label: "Skills" },
-        { path: "/proyectos", label: "Proyectos" },
-        { path: "/contactos", label: "Cursos" },
+        { path: "/proyectos", label: "Proyectos" }
       ];
 
 return(

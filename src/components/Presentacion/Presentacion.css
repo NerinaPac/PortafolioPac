@@ -23,3 +23,20 @@
 
     
 }
+
+@media (max-width: 768px) {
+    .presentacionContain{
+        display: block;
+        height: auto;
+    }
+    .presentacionImg{
+        margin: auto;
+        padding: 0 1rem;
+    }
+
+}
+
+@media (max-width: 480px){
+
+   
+}

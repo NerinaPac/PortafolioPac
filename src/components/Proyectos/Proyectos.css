@@ -35,3 +35,19 @@
     padding: 1rem 2rem;
 }
 
+@media (max-width: 768px) {
+    .proyectoSection{
+        height: auto;
+        padding: 4rem 1rem;
+    }
+
+    .proyecto{
+        display: block;
+    }
+
+    .textProyect{
+        font-size: 1rem;
+        padding: 1rem 2rem;
+    }
+
+}

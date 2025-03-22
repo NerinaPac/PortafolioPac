@@ -20,3 +20,11 @@ ul {
 .navLink:hover{
     color: var(--verde);
 }
+
+@media (max-width: 768px) {
+    
+    ul {
+        justify-content:center;
+    }
+
+}

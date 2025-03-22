@@ -18,7 +18,9 @@ function Home (){
             <Skills 
             infoSkill={miData.skills}
             />
-            <Proyectos />
+            <Proyectos 
+            infoProyectos={miData.proyectos}
+            />
             <Footer />
 
         </>

@@ -1,19 +1,23 @@
-import "./Proyectos.css"
-import imgProyect from "../../assets/proyectoHombre.jpg";
+import "./Proyectos.css";
 import { Link } from "react-router-dom";
 
-function Proyectos () {
+function Proyectos ({infoProyectos}) {
 
     return(
         <section className="proyectoSection" id="proyectosPac">
             <h2>PROYECTOS</h2>
             <div className="proyectosCnt">
-                <div className="proyecto">
-                    <Link to="https://movimientohombre.netlify.app/" target="_blank" rel="noopener noreferrer" className="proyectLink">
-                    <img src={imgProyect} alt="Imagen del proyecto" className="proyectImg"/>
+                {infoProyectos.map((item, index) => (
+
+                    <div className="proyecto" key={index}>
+                    <Link to={item.link} target="_blank" rel="noopener noreferrer" className="proyectLink">
+                    <img src={item.img} alt="Imagen del proyecto" className="proyectImg"/>
                     </Link>
-                    <p className="textProyect"> Es el primer proyecto que realice en el curso FullStack de UTN. Es una pagina estilo blog informativo. Está hecho con Angular.  </p>
+                    <p className="textProyect">{item.reseña}</p>
                 </div>
+
+                ))}
+                
 
             </div>
         </section>

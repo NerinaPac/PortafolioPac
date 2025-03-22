@@ -32,9 +32,20 @@
 ],
 
   "proyectos": [      
-    {"link":"https://nerinapac.github.io/PetShop-Kyubi/index.html",
-      "img":"bla bla" 
+    {"link":"https://movimientohombre.netlify.app/",
+      "img":"../../../public/proyectoHombre.jpg",
+      "reseña": "Es el Trabajo Final que realice en el curso Webmaster FullStack de UTN. Es una pagina estilo blog informativo. Está hecho con Angular."
         
-    }  
+    },
+    {"link":"https://nerinapac.github.io/PetShop-Kyubi/",
+      "img":"../../../public/proyectoPetshop.jpg",
+      "reseña": "Es un trabajo realizado en el curso Programación Web de Coderhouse. Está hecho solo en HTML Y CSS, con codigo harcodeado."
+        
+    },
+    {"link":"https://thehorrrorgrow.netlify.app/",
+      "img":"../../../public/proyectoTHG.jpg",
+      "reseña": "Este es un proyecto particular que aun no está terminado. es un Ecommerce realizado en React."
+        
+    }
   ]
 }

@@ -14,7 +14,9 @@ function Home (){
         <>
             <MouseCat />
             <Nav />
-            <Presentacion />            
+            <Presentacion
+            infoSobreMi={miData.sobreMi}
+            />            
             <Skills 
             infoSkill={miData.skills}
             />

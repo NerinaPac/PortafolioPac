@@ -1,13 +1,9 @@
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./views/Home";
-import MouseCat from './components/MouseCat/MouseCat';
 import './App.css'
 
 function App() {
-  AOS.init();
-  
+    
   return (
     <BrowserRouter>
       <Routes>

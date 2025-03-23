@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faSquareJs, faNode, faHtml5, faCss  } from '@fortawesome/free-brands-svg-icons';
 import "./Skills.css"
 
-
 function Skills ({infoSkill}){
 
     const iconMapping = {
@@ -28,8 +27,6 @@ function Skills ({infoSkill}){
                 ))}
                 
             </div>
-           
-
         </section>
 
     )

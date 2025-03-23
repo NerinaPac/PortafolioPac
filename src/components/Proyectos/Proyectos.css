@@ -11,14 +11,13 @@
 
 }
 
-.proyectLink{
+.proyectLink{    
     overflow: hidden;
 }
 
 .proyectImg{
-    width: 60rem;
-    height: auto;
-    display: block; /* Evita que el Link lo afecte */
+    width: 40rem;
+    display: block;
     transition: transform 0.3s ease-in-out;
 }
 

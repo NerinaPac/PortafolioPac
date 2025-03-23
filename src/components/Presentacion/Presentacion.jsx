@@ -1,23 +1,18 @@
-import "./Presentacion.css"
-import miFoto from "../../assets/mifoto.jpg";
-import data from "../../data/data.json";
+import "./Presentacion.css";
 import Contacto from "../Contacto/Contacto";
 
-function Presentacion (){
-
-    const infoYo = data.sobreMi;
+function Presentacion ({infoSobreMi}){
 
     return(
         
         <div className="presentacionContain">
             <div className="presentacionTexto">
-                <h1 className="sigmar-regular respoTitle">{infoYo.saludo}</h1>
-                <p>{infoYo.presentacion}</p>
+                <h1 className="sigmar-regular respoTitle">{infoSobreMi.saludo}</h1>
+                <p>{infoSobreMi.presentacion}</p>
                 <Contacto />
-
             </div>
             <div className="presentacionImg">
-                <img src={miFoto}  alt={infoYo.descripcionImagen} />
+                <img src={infoSobreMi.mifoto}  alt={infoSobreMi.descripcionImagen} />
             </div>
 
         </div>        

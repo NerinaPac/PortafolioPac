@@ -2,7 +2,8 @@
   "sobreMi": {
         "saludo": "Nerina Paccor",
         "presentacion": "Soy una Developer Frontend en constante crecimiento. Cada línea de código es un paso más en este viaje donde aprendo, experimento y disfruto creando cosas nuevas. Actualmente trabajo en una Empresa de Seguridad en Argentina, mientras completo mi formación a través de proyectos personales y cursos.",
-        "descripcionImagen":"una foto de una mujer"
+        "descripcionImagen":"una foto de una mujer",
+        "mifoto":"./mifoto.jpg"
 
   },
   
